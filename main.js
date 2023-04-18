@@ -84,7 +84,8 @@ AppModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵ�
         {
             provide: _angular_common__WEBPACK_IMPORTED_MODULE_11__.LocationStrategy,
             useClass: _angular_common__WEBPACK_IMPORTED_MODULE_11__.PathLocationStrategy
-        }
+        },
+        { provide: _angular_common__WEBPACK_IMPORTED_MODULE_11__.LocationStrategy, useClass: _angular_common__WEBPACK_IMPORTED_MODULE_11__.HashLocationStrategy }
     ], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_12__.BrowserModule,
         _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_13__.BrowserAnimationsModule,
         _demo_material_module__WEBPACK_IMPORTED_MODULE_5__.DemoMaterialModule,
